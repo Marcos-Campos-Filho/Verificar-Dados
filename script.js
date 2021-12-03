@@ -22,7 +22,6 @@ function verificar() {
           }else if (idade <= 50) {
               //ADULTO
               img.setAttribute('src', 'midia/foto-adulto-h-250.png')
-              
           }else {
               //IDOSO
               img.setAttribute('src', 'midia/foto-idoso-h-250.png')
@@ -31,12 +30,16 @@ function verificar() {
           gênero = 'Mulher'
           if (idade >= 0 && idade < 10) {
             //CRIANÇA
+            img.setAttribute('src', 'midia/foto-criança-m-250.png')
        } else if (idade >= 10 && idade < 21 ) {
            //JOVEM
+           img.setAttribute('src', 'midia/foto-jovem-m-250.png')
        }else if (idade >= 21 && idade < 50) {
            //ADULTO
+           img.setAttribute('src', 'midia/foto-adulto-m-250.png')
        }else {
            //IDOSO
+           img.setAttribute('src', 'midia/foto-idoso-m-250.png')
        }
        }else {
            gênero = 'uma pessoa Não-Binâria'

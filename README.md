@@ -1,2 +1,7 @@
 # Verificar-Dados
- Verifca a idade/sexo/ano de usuario
+Calcula Idade coletando os seguintes Dados:
+ <ul>
+ <li><b>Idade</b></li>
+ <li><b>sexo</b></li>
+ <li><b>Ano de nascimento</b></li>
+ </ul>
